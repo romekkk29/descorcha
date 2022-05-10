@@ -60,9 +60,7 @@
 
 
 window.addEventListener("load",function(){
-    let logo= document.querySelector(".login100-form-logo")
-    
-    logo.style.transform="translateX(72%)"
+   
     let imagen= document.querySelector(".login100-more")
     
     let form= document.querySelector("form")
@@ -70,4 +68,10 @@ window.addEventListener("load",function(){
     imagen.style.marginBottom="0%"
     form.style.transition="all 1.2s ease";
     form.style.transform="translateX(0%)"
+})
+
+
+let loginLogo=document.querySelector(".login100-form-logo")
+loginLogo.addEventListener("click",()=>{
+    window.location.href="https://www.descorcha.com.ar/"
 })

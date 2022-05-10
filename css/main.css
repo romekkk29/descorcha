@@ -224,7 +224,9 @@ iframe {
   left: 0;
   background: rgba(0,0,0,0.3);
 }
-
+.login100-more:hover{
+  transform: scale(1.15);
+}
 
 
 /*==================================================================
@@ -243,11 +245,16 @@ iframe {
 
 .login100-form-logo{
   margin-left: auto; margin-right: auto; display: block;
+  cursor: pointer;
+}
+.login100-form-logo:hover{
+  transform: scale(1.1) rotate(5deg);
+  transition: all 1.3s ease ;
 }
 
 .login100-form-title {
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   color: #555555;
   line-height: 1.2;
   letter-spacing: 2px;
@@ -290,7 +297,7 @@ iframe {
 }
 
 input.input100 {
-  height: 55px;
+  height: 47px;
 }
 
 /*---------------------------------------------*/
@@ -360,7 +367,7 @@ input.input100 {
   height: 50px;
   border-radius: 3px;
   background: #BA2154;
-
+  cursor: pointer;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 12px;
@@ -377,6 +384,7 @@ input.input100 {
 
 .login100-form-btn:hover {
   background: #333333;
+ 
 }
 
 .legales{
@@ -413,7 +421,7 @@ input.input100 {
   .login100-form {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 150px;
+   
   }
 
   .rs1-wrap-input100,
@@ -505,12 +513,9 @@ input.input100 {
     color: #BA2154;
 }
 
-.login100-form-logo{
-  margin: 0px;
-  transition: all 1.2s ease;
-}
+
 .login100-more{
-  margin-bottom: -100%;
+  margin-bottom: -190%;
 
 }
 form{
