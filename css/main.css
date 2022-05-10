@@ -200,7 +200,7 @@ iframe {
   flex-wrap: wrap;
   align-items: stretch;
   flex-direction: row-reverse;
-
+  
 }
 
 /*==================================================================
@@ -225,9 +225,11 @@ iframe {
   background: rgba(0,0,0,0.3);
 }
 .login100-more:hover{
-  transform: scale(1.15);
+  transform: scale(0.8);
 }
-
+.login100-more{
+  transform: scale(0.65);
+}
 
 /*==================================================================
 [ Form ]*/
@@ -240,7 +242,15 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 33px 65px 40px 65px;
+  padding: 30px 62px 37px 62px;
+ 
+}
+@media all and (min-width:800px) and (min-height:750){
+
+    .container-login100{
+      height: 100vh;
+      overflow: hidden;
+    }      
 }
 
 .login100-form-logo{

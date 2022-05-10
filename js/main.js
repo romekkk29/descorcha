@@ -73,5 +73,17 @@ window.addEventListener("load",function(){
 
 let loginLogo=document.querySelector(".login100-form-logo")
 loginLogo.addEventListener("click",()=>{
-    window.location.href="https://www.descorcha.com.ar/"
+    window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page"
+})
+
+let form= document.querySelector("form")
+form.addEventListener("submit",function(){
+        
+            let response=document.querySelectorAll(".response")
+            response.forEach(element=>{
+                if(element.textContent!=null || element.textContent != "" && element.textContent>0){
+                    setTimeout(window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page",1900)
+                    
+                }
+            })
 })
