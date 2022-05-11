@@ -206,7 +206,7 @@ iframe {
 /*==================================================================
 [ login more ]*/
 .login100-more {
-  width: 50%;
+  width: 45%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -235,7 +235,7 @@ iframe {
 [ Form ]*/
 
 .login100-form {
-  width: 50%;
+  width: 55%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -264,7 +264,7 @@ iframe {
 
 .login100-form-title {
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #555555;
   line-height: 1.2;
   letter-spacing: 2px;
@@ -300,14 +300,14 @@ iframe {
   width: 100%;
   background: transparent;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #666666;
   line-height: 1.2;
   padding: 0 25px;
 }
 
 input.input100 {
-  height: 47px;
+  height: 45px;
 }
 
 /*---------------------------------------------*/
