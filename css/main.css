@@ -242,7 +242,7 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 62px 37px 62px;
+  padding: 24px 62px 26px 62px;
  
 }
 @media all and (min-width:800px) and (min-height:750){
