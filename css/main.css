@@ -242,11 +242,11 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 24px 62px 26px 62px;
+  padding: 17px 62px 15px 62px;
  
 }
-@media all and (min-width:800px) and (min-height:750){
-
+@media all and (min-width:900px) {
+ 
     .container-login100{
       height: 100vh;
       overflow: hidden;
