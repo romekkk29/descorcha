@@ -247,12 +247,44 @@ iframe {
 }
 @media all and (min-width:900px) {
  
-    .container-login100{
-      height: 100vh;
-    
-    }      
+  .container-login100{
+    height: 100vh;
+  }      
 }
-
+@media all {
+@media (max-height:650px) {
+  @media (min-height:600px){
+  @media (min-width:940px){
+    .wrap-login100{
+      transform: scale(0.85) translateY(-5vh) !important;
+    } 
+  } 
+}}}
+@media (max-height:600px) {
+  @media (min-height:550px){
+  @media (min-width:940px){
+    .wrap-login100{
+      transform: scale(0.78) translateY(-10vh) !important;
+    } 
+  } 
+}}
+@media (max-height:550px) {
+  @media (min-height:520px){
+  @media (min-width:940px){
+    .wrap-login100{
+      transform: scale(0.75) translateY(-16vh) !important;
+    } 
+  } 
+}}
+@media all {
+@media (max-height:700px) {
+  @media (min-height:650px){
+  @media (min-width:940px){
+    .wrap-login100{
+      transform: scale(0.9) translateY(-2vh) !important;
+    } 
+  } 
+}}}
 .login100-form-logo{
   margin-left: auto; margin-right: auto; display: block;
   cursor: pointer;
