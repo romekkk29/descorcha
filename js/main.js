@@ -79,11 +79,19 @@ loginLogo.addEventListener("click",()=>{
 let form= document.querySelector("form")
 form.addEventListener("submit",function(){
         
-            let response=document.querySelectorAll(".response")
-            response.forEach(element=>{
-                if(element.textContent!=null || element.textContent != "" && element.textContent>0){
-                    setTimeout(window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page",1900)
-                    
-                }
-            })
+            
+            setTimeout(response2,3000)
+
+           
 })
+function response2(){
+    
+    let response=document.querySelectorAll(".response")
+    response.forEach(element=>{
+        console.log(element.textContent)
+        if( element.textContent != "" ){
+            console.log(element.textContent)
+            setTimeout(window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page",2000) 
+            
+        }
+    })}
