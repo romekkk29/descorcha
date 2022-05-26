@@ -91,7 +91,7 @@ function response2(){
         console.log(element.textContent)
         if( element.textContent != "" ){
             console.log(element.textContent)
-            setTimeout(window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page",2000) 
+            setTimeout(()=>{window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page"},2000) 
             
         }
     })}
