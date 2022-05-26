@@ -89,7 +89,7 @@ function response2(){
     let response=document.querySelectorAll(".response")
     response.forEach(element=>{
         console.log(element.textContent)
-        if( element.textContent != "" ){
+        if( element.textContent.includes("Gracias") ){
             console.log(element.textContent)
             setTimeout(()=>{window.location.href="https://www.descorcha.com.ar/promociones/?utm_source=landing-page&utm_medium=direct&utm_campaign=landing-page"},2000) 
             
